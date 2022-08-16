@@ -1,0 +1,6 @@
+<div id="geolocate">
+  <button (click)="askPermission()">Geolocate</button>
+  <p>Latitude: {{latitude}} °, Longitude: {{longitude}} °</p>
+  <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=6.958808898925782%2C49.98776621452598%2C7.030477523803712%2C50.01220693070639&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/>
+  <small><a href="https://www.openstreetmap.org/#map=19/{{latitude}}/{{longitude}}">Afficher une carte plus grande</a></small>
+</div>

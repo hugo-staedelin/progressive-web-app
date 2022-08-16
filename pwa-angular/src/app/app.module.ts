@@ -7,12 +7,14 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MenuComponent } from './home/menu/menu.component';
 import {MediaComponent} from "./features/audio-video/media.component";
+import { GeolocationComponent } from './features/geolocation/geolocation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    MediaComponent
+    MediaComponent,
+    GeolocationComponent
   ],
   imports: [
     BrowserModule,

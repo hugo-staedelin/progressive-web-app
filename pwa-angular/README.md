@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Install the app
+
+To make the app installable, you need to use a web server (i.e, with the `serve` npm package`). The basic configuration make it installable already, no need to provide more parameters.

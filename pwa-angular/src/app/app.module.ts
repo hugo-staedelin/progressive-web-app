@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MenuComponent } from './home/menu/menu.component';
+import {MediaComponent} from "./features/audio-video/media.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule,
